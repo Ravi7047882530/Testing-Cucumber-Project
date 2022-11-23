@@ -28,6 +28,20 @@ public class OfferPageStepDefinitions {
 	// Factory Design pattern
 	public OfferPageStepDefinitions(TestContextSetup testContextSetup) {
 		this.testContextSetup = testContextSetup;
+		System.out.println("Please pull the code from the Github");
+		System.out.println("Please pull the code from the Github1");
+		System.out.println("Please pull the code from the Github2");
+		System.out.println("Please pull the code from the Github3");
+		System.out.println("Please pull the code from the Github4");
+		System.out.println("Please pull the code from the Github5");
+		System.out.println("Please pull the code from the Github6");
+		System.out.println("Azure Devops develop");
+		System.out.println("Azure Devops develop1");
+		System.out.println("Azure Devops develop2");
+		System.out.println("Azure Devops develop for Hooks");
+		System.out.println("Azure Devops develop for Hooks1");
+		System.out.println("Azure Devops develop for Hooks2");
+
 
 	}
 
