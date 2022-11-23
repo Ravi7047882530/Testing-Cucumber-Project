@@ -19,9 +19,7 @@ public class CheckoutPageStepDefinitions {
 		this.testContextSetup = testContextSetup;
 		this.checkoutPage = testContextSetup.pageObjectManager.getcheckoutPage();
 		
-		System.out.println("New Changes");
-		System.out.println("New Changes1");
-		System.out.println("New Changes2");
+		System.out.println("Please pull the code from the Github");
 	}
 
 	@Then("^User proceeds to checkout and validate the (.+) items in checkout page$")
