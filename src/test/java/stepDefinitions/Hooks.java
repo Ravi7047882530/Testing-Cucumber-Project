@@ -26,6 +26,12 @@ public class Hooks {
 		System.out.println("Please pull the code from the Github4");
 		System.out.println("Please pull the code from the Github5");
 		System.out.println("Please pull the code from the Github6");
+		System.out.println("Azure Devops develop");
+		System.out.println("Azure Devops develop1");
+		System.out.println("Azure Devops develop2");
+		System.out.println("Azure Devops develop for Hooks");
+		System.out.println("Azure Devops develop for Hooks1");
+		System.out.println("Azure Devops develop for Hooks2");
 
 
 
@@ -34,6 +40,9 @@ public class Hooks {
 	@After
 	public void AfterScenario() throws IOException {
 		testContextSetup.testBase.WebDriverManager().quit();
+		System.out.println("Azure Devops develop for Hooks3");
+		System.out.println("Azure Devops develop for Hooks2");
+		System.out.println("Azure Devops develop for Hooks1");
 
 	}
 
@@ -44,6 +53,8 @@ public class Hooks {
 			File sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			byte[] fileContent = FileUtils.readFileToByteArray(sourcePath);
 			scenario.attach(fileContent, "image/png", "image");
+			System.out.println("Devops develop");
+			System.out.println("Devops develop1");
 		}
 	}
 
