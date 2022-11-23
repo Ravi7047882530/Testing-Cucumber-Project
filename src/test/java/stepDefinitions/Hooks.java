@@ -18,6 +18,11 @@ public class Hooks {
 
 	public Hooks(TestContextSetup testContextSetup) {
 		this.testContextSetup = testContextSetup;
+		System.out.println("Web driver");
+		System.out.println("Web driver1");
+		System.out.println("Web driver2");
+		System.out.println("Web driver3");
+		System.out.println("Web driver4");
 
 	}
 
