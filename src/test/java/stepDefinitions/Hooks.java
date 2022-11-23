@@ -18,11 +18,16 @@ public class Hooks {
 
 	public Hooks(TestContextSetup testContextSetup) {
 		this.testContextSetup = testContextSetup;
-		System.out.println("Web driver");
-		System.out.println("Web driver1");
-		System.out.println("Web driver2");
-		System.out.println("Web driver3");
-		System.out.println("Web driver4");
+
+		System.out.println("Please pull the code from the Github");
+		System.out.println("Please pull the code from the Github1");
+		System.out.println("Please pull the code from the Github2");
+		System.out.println("Please pull the code from the Github3");
+		System.out.println("Please pull the code from the Github4");
+		System.out.println("Please pull the code from the Github5");
+		System.out.println("Please pull the code from the Github6");
+
+
 
 	}
 
