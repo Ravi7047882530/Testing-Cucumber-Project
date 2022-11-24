@@ -20,7 +20,7 @@ public class CheckoutPageStepDefinitions {
 		this.checkoutPage = testContextSetup.pageObjectManager.getcheckoutPage();
 		
 		System.out.println("Please pull the code from the Github");
-		System.out.println("Please pull the code from the Github1");
+		System.out.println("Please pull the code from the Github1"); 
 		System.out.println("Please pull the code from the Github2");
 		System.out.println("Please pull the code from the Github3");
 		System.out.println("Please pull the code from the Github4");
